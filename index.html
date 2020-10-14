@@ -47,18 +47,21 @@
           <ul class="list">
             <li class="list-inline-block">
               <address>
-                <a
-                  class="header-tel-mail link"
-                  href="mailto:info@devstudio.com"
-                >
-                  info@devstudio.com</a
-                >
+                <a class="header-mail link" href="mailto:info@devstudio.com">
+                  <svg class="tel-svg-class">
+                    <use href="./img/sprite.svg#icon-tel"></use>
+                  </svg>
+                  info@devstudio.com
+                </a>
               </address>
             </li>
             <li class="list-inline-block">
               <address>
-                <a class="header-tel-mail link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
+                <a class="header-tel link" href="tel:+380961111111"
+                  ><svg class="mail-svg-class">
+                    <use href="./img/sprite.svg#icon-mail"></use>
+                  </svg>
+                  +38 096 111 11 11</a
                 >
               </address>
             </li>
@@ -66,16 +69,19 @@
         </nav>
       </div>
     </header>
+
     <main>
       <!--order servies container-->
       <section class="order-sevies-container">
-        <div class="main-div-container div-flex-order">
+        <div class="main-div-container">
           <h1 class="order-servies-heading">
             Эффективные решения для вашего бизнеса
           </h1>
-          <button class="order-servies-button" type="button">
-            Заказать услугу
-          </button>
+          <div class="button-spacing">
+            <button class="order-servies-button" type="button">
+              Заказать услугу
+            </button>
+          </div>
         </div>
       </section>
 
@@ -84,7 +90,7 @@
         <!--what do we do LIST-->
         <div class="main-div-container">
           <div class="dowedo-list">
-            <div>
+            <div class="beforeone">
               <h3 class="dowedo-title">Внимание к деталям</h3>
               <p class="dowedo-description">
                 Идейные соображения, а также начало повседневной работы по
@@ -198,45 +204,54 @@
 
     <footer class="footer-container">
       <div class="main-div-container">
-        <!--logo container-->
+        <div class="footer-display">
+          <!--logo container-->
 
-        <div class="logo-space">
-          <a
-            class="logo-style link"
-            href="./index.html"
-            aria-label="логотип webstudio"
-            >Web<span class="logo-whiteside">Studio</span></a
-          >
+          <div class="logo-space">
+            <a
+              class="logo-style link"
+              href="./index.html"
+              aria-label="логотип webstudio"
+              >Web<span class="logo-whiteside">Studio</span></a
+            >
+          </div>
+          <!--contacts container-->
+          <nav>
+            <ul class="list">
+              <li>
+                <address class="address-space">
+                  <a
+                    class="footer-adress link"
+                    href="https://goo.gl/maps/L8HJAxBPECRe6HpdA"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </address>
+              </li>
+              <li>
+                <address class="address-space">
+                  <a
+                    class="footer-tel-mail link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </address>
+              </li>
+              <li>
+                <address>
+                  <a class="footer-tel-mail link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </address>
+              </li>
+            </ul>
+          </nav>
+          <div class="list-inline-block">
+            <h3 class="title-social">присоединяйтесь</h3>
+            <svg>
+              <use href="./img/sprite.svg#icon-fb"></use>
+            </svg>
+          </div>
         </div>
-
-        <!--contacts container-->
-        <nav>
-          <ul class="list">
-            <li>
-              <address>
-                <a
-                  class="footer-adress link"
-                  href="https://goo.gl/maps/L8HJAxBPECRe6HpdA"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </address>
-            </li>
-            <li>
-              <address>
-                <a class="footer-tel-mail link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </address>
-            </li>
-            <li>
-              <address>
-                <a class="footer-tel-mail link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </address>
-            </li>
-          </ul>
-        </nav>
       </div>
     </footer>
   </body>
