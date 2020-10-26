@@ -146,6 +146,11 @@ body {
 .tel-svg-class {
   width: 16px;
   height: 12px;
+  fill: var(--subtitle-light-theme-color);
+}
+
+.tel-hover :hover svg {
+  fill: yellow;
 }
 
 .mail-svg-class {
@@ -235,7 +240,7 @@ body {
   margin-top: 94px;
 }
 
-.dowedo-title {
+.dowedo-title-one {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: bold;
@@ -245,8 +250,86 @@ body {
   color: var(--title-light-theme-color);
 }
 
-.dowedo-title::before {
-  content: "1. ";
+.dowedo-title-one::before {
+  margin-bottom: 30px;
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../img/antenna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dowedo-title-two {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+.dowedo-title-two::before {
+  margin-bottom: 30px;
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../img/time.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dowedo-title-three {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+.dowedo-title-three::before {
+  margin-bottom: 30px;
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../img/computer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dowedo-title-four {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+.dowedo-title-four::before {
+  margin-bottom: 30px;
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url(../img/astronaut.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .dowedo-description {
@@ -342,6 +425,35 @@ body {
 }
 
 /*  ======== END OUR TEAM container ========  */
+
+/*  ======== OUR CLIENTS container ========  */
+
+.clients-container {
+  width: 1600px;
+  background: white;
+}
+
+.title-clients {
+  padding-top: 94px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.list-flex-options {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  justify-content: space-between;
+  width: 1170px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
 
 /*  ======== PORTFOLIO container ========  */
 
