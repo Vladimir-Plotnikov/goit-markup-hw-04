@@ -146,17 +146,20 @@ body {
 .tel-svg-class {
   width: 16px;
   height: 12px;
-  fill: var(--subtitle-light-theme-color);
 }
 
-.tel-hover :hover svg {
-  fill: yellow;
+.tel-svg-class:hover {
+  fill: white;
 }
 
 .mail-svg-class {
   padding-right: 5px;
   width: 16px;
   height: 12px;
+}
+
+.mail-svg-class:hover {
+  fill: black;
 }
 
 /*  ======== END HEADER ========  */
@@ -390,13 +393,51 @@ body {
 
 .pics-boxes {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background: #ffffff;
   /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.social-list-link .social-list-svg .social-list-svg-use--active {
+  display: none;
+}
+.social-list-link:hover .social-list-svg {
+  fill: var(--accent-color);
+  background-color: blue;
+}
+.social-list-link:hover .social-list-svg .social-list-svg-use {
+  display: none;
+}
+
+.social-list-link:hover .social-list-svg .social-list-svg-use--active {
+  display: inline-block;
+}
+
+.social-list-svg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.ourteam-flexlist {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px 0 22px;
+  margin: 16px 0 30px 0;
 }
 
 .ourteam-list-names {
@@ -413,6 +454,7 @@ body {
 }
 
 .ourteam-list-description {
+  margin-bottom: 16px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
