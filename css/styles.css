@@ -144,6 +144,7 @@ body {
 }
 
 .tel-svg-class {
+  display: inline-block;
   width: 16px;
   height: 12px;
 }
@@ -153,14 +154,19 @@ body {
 }
 
 .mail-svg-class {
+  display: inline-block;
   padding-right: 5px;
   width: 16px;
   height: 12px;
 }
 
-.mail-svg-class:hover {
-  fill: black;
+.header-mail.link:hover svg {
+  fill: white;
 }
+
+/*.mail-svg-class:hover {
+  fill: black;
+}*/
 
 /*  ======== END HEADER ========  */
 
