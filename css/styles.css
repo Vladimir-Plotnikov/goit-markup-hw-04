@@ -160,13 +160,13 @@ body {
   height: 12px;
 }
 
-.header-mail.link:hover svg {
-  fill: white;
+/*.header-mail.link:hover svg {
+  fill: white; */
 }
 
-/*.mail-svg-class:hover {
-  fill: black;
-}*/
+.mail-svg-class:hover {
+  fill: white;
+}
 
 /*  ======== END HEADER ========  */
 
