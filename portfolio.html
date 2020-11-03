@@ -15,56 +15,52 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body-width">
-    <header class="header">
-      <div class="main-div-container">
-        <!--logo container-->
-        <a
-          class="logo-style link"
-          href="./index.html"
-          aria-label="логотип webstudio"
-          >Web<span class="logo-darkside">Studio</span></a
-        >
-
-        <!--navigation container-->
-        <nav class="nav-cont-list">
-          <ul class="list">
-            <li class="list-inline-block">
-              <a class="navigation-list link" href="">Студия</a>
-            </li>
-            <li class="list-inline-block">
-              <a class="navigation-list link" href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="list-inline-block">
-              <a class="navigation-list link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <!--contacts container-->
-        <nav class="nav-cont-tel-mail">
-          <ul class="list">
-            <li class="list-inline-block">
-              <address>
-                <a
-                  class="header-tel-mail link"
-                  href="mailto:info@devstudio.com"
-                >
-                  info@devstudio.com</a
-                >
-              </address>
-            </li>
-            <li class="list-inline-block">
-              <address>
-                <a class="header-tel-mail link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </address>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <header class="header">
+    <div class="main-div-container">
+      <!--logo container-->
+  
+      <a class="logo-style link" href="./index.html" aria-label="логотип webstudio">Web<span
+          class="logo-darkside">Studio</span></a>
+  
+      <!--navigation container-->
+      <nav class="nav-cont-list">
+        <ul class="list">
+          <li class="list-inline-block">
+            <a class="navigation-list link" href="">Студия</a>
+          </li>
+          <li class="list-inline-block">
+            <a class="navigation-list link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="list-inline-block">
+            <a class="navigation-list link" href="">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <!--contacts container-->
+      <nav class="nav-cont-tel-mail">
+        <ul class="list">
+          <li class="list-inline-block">
+            <address>
+              <a class="header-mail link" href="mailto:info@devstudio.com">
+                <svg class="mail-svg-class">
+                  <use href="./img/sprite.svg#icon-mail"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </address>
+          </li>
+          <li class="list-inline-block">
+            <address>
+              <a class="header-tel link" href="tel:+380961111111"><svg class="tel-svg-class">
+                  <use href="./img/sprite.svg#icon-tel"></use>
+                </svg>
+                +38 096 111 11 11</a>
+            </address>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
     <!--portfolio container-->
     <main>
       <section class="portfolio-container">
@@ -137,47 +133,68 @@
         </div>
       </section>
     </main>
-    <footer class="footer-container">
-      <div class="main-div-container">
-        <!--logo container-->
-        <div class="logo-space">
-          <a
-            class="logo-style link"
-            href="./index.html"
-            aria-label="логотип webstudio"
-            >Web<span class="logo-whiteside">Studio</span></a
-          >
+      <footer class="footer-container">
+        <div class="main-div-container">
+          <div class="footer-display">
+            <!--logo container-->
+      
+            <div class="logo-space">
+              <a class="footer-logo-style link" href="./index.html" aria-label="логотип webstudio">Web<span
+                  class="logo-whiteside">Studio</span></a>
+              <nav>
+                <ul class="list">
+                  <li>
+                    <address class="address-space">
+                      <a class="footer-adress link" href="https://goo.gl/maps/L8HJAxBPECRe6HpdA">г. Киев, пр-т Леси Украинки,
+                        26</a>
+                    </address>
+                  </li>
+                  <li>
+                    <address class="address-space">
+                      <a class="footer-tel-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </address>
+                  </li>
+                  <li>
+                    <address>
+                      <a class="footer-tel-mail link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </address>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!--contacts container-->
+      
+            <div class="footer-social-list">
+              <h3 class="title-social">присоединяйтесь</h3>
+              <ul class="footer-social list">
+                <li><a class="footer-social-list-link" href="">
+                    <svg class="footer-social-list-svg">
+                      <use class="social-list-svg-use" href="./img/sprite.svg#icon-instadark"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li><a class="footer-social-list-link" href="">
+                    <svg class="footer-social-list-svg">
+                      <use href="./img/sprite.svg#icon-twitterdark"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li><a class="footer-social-list-link" href="">
+                    <svg class="footer-social-list-svg">
+                      <use href="./img/sprite.svg#icon-fbdark"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li><a class="footer-social-list-link" href="">
+                    <svg class="footer-social-list-svg">
+                      <use href="./img/sprite.svg#icon-linkedindark"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-
-        <!--contacts container-->
-        <nav>
-          <ul class="list">
-            <li>
-              <address>
-                <a
-                  class="footer-adress link"
-                  href="https://goo.gl/maps/L8HJAxBPECRe6HpdA"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </address>
-            </li>
-            <li>
-              <address>
-                <a class="footer-tel-mail link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </address>
-            </li>
-            <li>
-              <address>
-                <a class="footer-tel-mail link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </address>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
