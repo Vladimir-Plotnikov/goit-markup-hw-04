@@ -497,13 +497,22 @@ body {
 }
 
 .list-svg-clients {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .svg-clients {
-  width: 170px;
-  height: 90px;
   fill: #afb1b8;
+}
+
+.list-svg-clients:hover {
+  border-color: var(--accent-color);
 }
 
 .list-svg-clients:hover svg {
